@@ -69,9 +69,9 @@ public class Item : MonoBehaviour
 				// pasando como parámetro la matriz de transformación de nuestro nuevo GameObject
 				gmComp.SetCurrentSpawnPoint(newSpawnPoint.transform);
 
-				// TODO 6 - Autodestruirse
-				//Desaparece el ítem de la escena
-				// Pista: Destroy(...);
+                // TODO 6 - Autodestruirse
+                //Desaparece el ítem de la escena
+                // Pista: Destroy(...);
 				Destroy(gameObject);
 
             }
