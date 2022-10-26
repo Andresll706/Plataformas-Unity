@@ -37,11 +37,8 @@ public class TriggerLoadAdditive : MonoBehaviour
                     break;
             }
 
-            if (sceneName != null)
-            {
-                SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
-                this.enabled = false;
-            }
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+            GetComponent<Collider>().isTrigger = false;
         }
 		//LoadLevelAdditive(other.gameObject);
 	}
