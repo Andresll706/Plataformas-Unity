@@ -439,6 +439,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3542889461439211388, guid: 0e933a59d096faf4a9e4157a7cbcea0d, type: 3}
   m_PrefabInstance: {fileID: 1645697526}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &334887409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334887408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f76b7c21c4b814bb1252649aa5f8ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorColor: 3
+--- !u!65 &334887410
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334887408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.000102, y: 6.725412, z: 10.000002}
+  m_Center: {x: -18.000053, y: 3.7327058, z: -2.3000007}
 --- !u!1 &647684412 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3542889460589715211, guid: 0e933a59d096faf4a9e4157a7cbcea0d, type: 3}
@@ -860,6 +886,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PowerUpTimer: {fileID: 1687377355}
+--- !u!1 &1292428376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1292428378}
+  - component: {fileID: 1292428377}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1292428377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292428376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45a53d21e831e2548abde2fdbd3e7602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tablero:
+  - _fila: 0
+    _columna: 0
+  - _fila: 0
+    _columna: 0
+--- !u!4 &1292428378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292428376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.79868424, y: -4.785449, z: -5.389969}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1328867871
 GameObject:
   m_ObjectHideFlags: 0
